@@ -1,0 +1,54 @@
+Good afternoon James,
+
+Here's a quick guide to everything in this assignment:
+
+-----------------------------------------------------------------------------------------------------------------------
+
+TARBALL CONTENTS
+
+-----------------------------------------------------------------------------------------------------------------------
+
+-homework_1.pdf: Type set explanation of my solution to the problems
+
+
+-src: Folder housing the source code for all problems in the assignment.
+
+		-prob_1
+			-quad_1.cpp: Standalone solver for problem 1
+
+		-prob_2
+			-quad_2.cpp: Main program from problems 2 and 3 (mostly just print statements).
+			-function_2.cpp: Separate file containing function definitions
+			-quad_2.h: header file 
+
+		-prob_4
+			-quad_3.cpp: Main program from problems 2 and 3. Pretty much a copy of quad_2.cpp
+			-function_3.cpp: Separate file containing  function definitions
+			-quad_3.h: header file
+
+
+-makefile
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+INSTRUCTIONS:
+
+----------------------------------------------------------------------------------------------------------------------
+
+To compile the code, simply input "make" into the terminal while in the parent directory. The makefile should
+point to the correct source code folders. The makefile should generate an executable in the parent directory
+for each problem. If everything is working right, you should end up with "quad_1", "quad_2", and "quad_3" which can be run
+by simply typing "./quad_n", where n is the number associated with the program you would like to run.
+
+All programs will require raw input. As suggested in the typeset solutions, you can use a = 1, b = 5, and c = 6
+for a quick check of the program accuracy.
+
+
+If this file structure is a little tedious for you to grade, just  let me know and I'll change it up next time!
+
+-Brett

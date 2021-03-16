@@ -1,0 +1,68 @@
+#########################################
+# Homework 2 README			#
+# ASTR 5900: Numerical Methods		#
+# Date: 2/22/2021			#
+# Author: Brett Bonine			#
+#########################################
+
+--------------------------------------------------------------------------------
+
+TARBALL CONTENTS:
+
+--------------------------------------------------------------------------------
+
+-homework_2.pdf: Type set explanation of my solution to the problems
+
+
+-src: Folder housing the source code for any executables in the assignment.
+
+	-solver.cpp: Main program for problem 2a. Input roots via the command line.
+
+
+-prob_2b.py: Python script problem 2b.
+
+
+-makefile
+
+--------------------------------------------------------------------------------
+
+INSTRUCTIONS:
+
+--------------------------------------------------------------------------------
+
+To compile the code, simply input "make" into the terminal while in the parent
+directory. The makefile should point to the correct source code folder.
+The makefile should generate an executable "solver" in the parent directory.
+Run the executable by typing "./solver" in the command line.
+
+The solver executable will prompt you for a initial guesses for the x and y
+values of the roots. Have fun!
+
+
+To run the python script on oscer, first load in the required module by typing
+ "module load /python/anaconda3" in the command line. This is required 
+to acces the canned scipy solver. 
+
+Next, run the script by typing "python prob_2b.py" into the terminal.
+This script does not include raw input and is only included
+for posterity.
+
+
+--------------------------------------------------------------------------------
+
+ADDITIONAL PROGRAM INFO 
+
+-------------------------------------------------------------------------------
+
+- c++ modules Loaded:
+	-iostream
+	-cmath
+
+- python modules loaded:
+	-anaconda3
+
+
+- path to source code: 
+	/src/solver.cpp
+
+
